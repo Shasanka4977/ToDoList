@@ -99,12 +99,9 @@
 		602759AE297E59A70039F4FD /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				602759AF297E59A70039F4FD /* AppDelegate.swift */,
-				602759B1297E59A70039F4FD /* SceneDelegate.swift */,
-				602759B3297E59A70039F4FD /* ViewController.swift */,
-				602759B5297E59A70039F4FD /* Main.storyboard */,
-				602759B8297E59AA0039F4FD /* Assets.xcassets */,
-				602759BA297E59AA0039F4FD /* LaunchScreen.storyboard */,
+				602759E1297E5E470039F4FD /* ViewControllers */,
+				602759E0297E5E170039F4FD /* Views */,
+				602759DF297E5DF80039F4FD /* Common */,
 				602759BD297E59AA0039F4FD /* Info.plist */,
 			);
 			path = ToDoList;
@@ -125,6 +122,33 @@
 				602759D2297E59AA0039F4FD /* ToDoListUITestsLaunchTests.swift */,
 			);
 			path = ToDoListUITests;
+			sourceTree = "<group>";
+		};
+		602759DF297E5DF80039F4FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				602759B8297E59AA0039F4FD /* Assets.xcassets */,
+				602759AF297E59A70039F4FD /* AppDelegate.swift */,
+				602759B1297E59A70039F4FD /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		602759E0297E5E170039F4FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				602759BA297E59AA0039F4FD /* LaunchScreen.storyboard */,
+				602759B5297E59A70039F4FD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		602759E1297E5E470039F4FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				602759B3297E59A70039F4FD /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
