@@ -16,6 +16,7 @@
 		602759C7297E59AA0039F4FD /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759C6297E59AA0039F4FD /* ToDoListTests.swift */; };
 		602759D1297E59AA0039F4FD /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759D0297E59AA0039F4FD /* ToDoListUITests.swift */; };
 		602759D3297E59AA0039F4FD /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759D2297E59AA0039F4FD /* ToDoListUITestsLaunchTests.swift */; };
+		602759E3297E94D10039F4FD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759E2297E94D10039F4FD /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		602759CC297E59AA0039F4FD /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		602759D0297E59AA0039F4FD /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		602759D2297E59AA0039F4FD /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		602759E2297E94D10039F4FD /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				602759B3297E59A70039F4FD /* ViewController.swift */,
+				602759E2297E94D10039F4FD /* TestViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				602759B4297E59A70039F4FD /* ViewController.swift in Sources */,
 				602759B0297E59A70039F4FD /* AppDelegate.swift in Sources */,
+				602759E3297E94D10039F4FD /* TestViewController.swift in Sources */,
 				602759B2297E59A70039F4FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
