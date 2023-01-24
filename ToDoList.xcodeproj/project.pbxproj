@@ -10,7 +10,7 @@
 		602759B0297E59A70039F4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759AF297E59A70039F4FD /* AppDelegate.swift */; };
 		602759B2297E59A70039F4FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759B1297E59A70039F4FD /* SceneDelegate.swift */; };
 		602759B4297E59A70039F4FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759B3297E59A70039F4FD /* ViewController.swift */; };
-		602759B7297E59A70039F4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602759B5297E59A70039F4FD /* Main.storyboard */; };
+		602759B7297E59A70039F4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602759B5297E59A70039F4FD /* Main.storyboard */; settings = {ASSET_TAGS = (Passward, ); }; };
 		602759B9297E59AA0039F4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602759B8297E59AA0039F4FD /* Assets.xcassets */; };
 		602759BC297E59AA0039F4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602759BA297E59AA0039F4FD /* LaunchScreen.storyboard */; };
 		602759C7297E59AA0039F4FD /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602759C6297E59AA0039F4FD /* ToDoListTests.swift */; };
@@ -214,6 +214,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					Login,
+					Passward,
+				);
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
